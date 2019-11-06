@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/* Set Base Font size to 10px: 1rem = 10px */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/* General Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+/* Scrollbars For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba($color-black, 0.4) transparent;
+}
+/* Scrollbars For webkit Brwosers */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  background-color: rgba($color-black, 0.4);
+  border-radius: 1rem;
+}

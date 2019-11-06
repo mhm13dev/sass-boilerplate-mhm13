@@ -1,0 +1,14 @@
+/* Table Styling */
+.table {
+  width: 100%;
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: $color-primary;
+  td,
+  th {
+    border: 1px solid white;
+    text-align: center;
+    color: $color-white;
+    padding: 1rem;
+  }
+}
